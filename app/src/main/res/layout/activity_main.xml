@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.orbbec.threadpooltest.MainActivity">
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="执行串行线程" />
+
+    <Button
+        android:id="@+id/hf"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="暂停线程池" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="恢复线程池" />
+
+    <Button
+    android:id="@+id/tiao"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:text="join" />
+
+    <Button
+        android:id="@+id/thread"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="start thread1" />
+</LinearLayout>
